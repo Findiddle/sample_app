@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'bootstrap-sass', '2.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -27,7 +28,7 @@ gem 'jquery-rails'
 
 group :test do
  gem 'rspec-rails'
- gem 'capybara', '1.1.2'
+ gem 'capybara', '>= 1.1.2'
  gem 'rb-fchange', '>= 0.0.5'
  gem 'rb-notifu', '>= 0.0.4'
  gem 'win32console', '>= 1.3.0'
